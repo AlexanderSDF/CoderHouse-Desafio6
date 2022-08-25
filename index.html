@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS DE BOOTSTRAP -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
     <!-- CSS MIO -->
@@ -16,58 +16,84 @@
     <title>Desafio Bootstrap</title>
   </head>
   <body>
-    <!-- NAVBAR -->
     <div class="container-fluid">
-      <!-- fluid permite que se adapte a todas las pantallas a mas de 1400px -->
+      <!-- NAVBAR -->
       <div class="row">
-        <!-- clase row para aplicar fila -->
-        <div class="col-lg-12 col-xs-12">
-          <!-- clase col para generar columnas y medidas siempre sumar 12 -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- clase nav-brand para icono -->
-            <a class="navbar-brand" href="./index.html">
-              <img
-                class=""
-                src="./assets/images/iconos/ferrari.png"
-                alt="Escuderia Ferrari"
-                width="50"
-                height="60"
-              />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="./pages/historia.html"><span class="sr-only">Historia</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./pages/pilotos.html"><span class="sr-only">Pilotos</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./pages/galeria.html"><span class="sr-only">Galeria</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./pages/somos.html"><span class="sr-only">Somos</span></a>
-                </li>
-              </ul>
+        <div class="col-12 col-lg-12 bg-dark">
+          <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="./index.html">
+                <img
+                  src="./assets/images/iconos/ferrari.png"
+                  alt=""
+                  width="100"
+                  height="120"
+                />
+              </a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./pages/historia.html"
+                      >Historia</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./pages/pilotos.html"
+                      >Pilotos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./pages/galeria.html"
+                      >Galeria</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./pages/somos.html"
+                      >Somos</a
+                    >
+                  </li>
+                </ul>
+                <!-- 
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form> -->
+              </div>
             </div>
           </nav>
         </div>
       </div>
+      <!-- -------------------------------------CONTENIDO------------------------------------>
+      <div class="row"></div>
+      <!-- -------------------------------------FOOTER------------------------------------>
+      <div class="row"></div>
     </div>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
   </body>
