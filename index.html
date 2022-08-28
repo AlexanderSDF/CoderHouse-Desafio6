@@ -15,83 +15,117 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Desafio Bootstrap</title>
   </head>
-  <body>
-    <div class="container-fluid">
-      <!-- NAVBAR -->
+  <body class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./assets/images/iconos/ferrari.png"
+              alt=""
+              width="100"
+              height="120"
+            />
+          </a>
+        </div>
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item primary">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/historia.html"
+                  >Historia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/pilotos.html"
+                  >Pilotos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/galeria.html"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/somos.html"
+                  >Somos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- CONTENIDO -->
+    <main class="container-fluid">
       <div class="row">
-        <div class="col-12 col-lg-12 bg-dark">
-          <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark">
-            <div class="container-fluid">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="./index.html">
-                <img
-                  src="./assets/images/iconos/ferrari.png"
-                  alt=""
-                  width="100"
-                  height="120"
-                />
-              </a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="./pages/historia.html"
-                      >Historia</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="./pages/pilotos.html"
-                      >Pilotos</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="./pages/galeria.html"
-                      >Galeria</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="./pages/somos.html"
-                      >Somos</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+        <h1 class="h1">Escuderia Ferrari</h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img
+            class="img-fluid"
+            src="./assets/images/general/ferrarindex2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-lg-6">
+          <p>
+            Bienvenidos a la pagina dedicada a la mayor comunidad
+            automovilistica, simpatizante de la Scuderia Ferrari, denominados
+            orgullosamente "Los Tifosi" vanagloriados con una admirable historia
+            merecedora de 16 titulos oficiles y el mayor prestigio de portar el
+            color Rosso junto al emblematico Cavallino Rampante. Hoy una
+            comunidad mas consolidada que nunca bajo el lema #essereFerrari.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p>Mientras que la mayoría de los equipos y su aficion pierden su esencia, sus valores fundamentales y sus tradiciones, Ferrari se aferra a ellos. Porque para el equipo con el Cavallino Rampante, desde sus inicios por su visionario fundador, a través de los días fue un ícono; hasta el tiempo que pasó por avivamientos, hasta cuando conquistó el mundo e incluso cuando cayó desde arriba, los valores fundamentales, el estilo y la identidad se pueden definir simplemente en una palabra: Ganar.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img
+            class="img-fluid"
+            src="./assets/images/general/ferrarindex.jpg"
+            alt=""
+          />
         </div>
       </div>
-      <!-- -------------------------------------CONTENIDO------------------------------------>
+    </main>
+    <footer class="container-fluid">
       <div class="row">
-
+        <div class="col-12">
+          <p class="footerText">Copyright 2022 - All rights reserved - EssereFerrari</p>
+        </div>
       </div>
-      <!-- -------------------------------------FOOTER------------------------------------>
-      <div class="row"></div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
+    </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+  ></script>
 </html>
