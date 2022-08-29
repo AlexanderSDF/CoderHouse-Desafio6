@@ -26,6 +26,15 @@ p {
   text-align: center;
   font-weight: 650;
 }
+.h2 {
+  text-align: center;
+  font-weight: 650;
+}
+.h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 650;
+}
 .img-fluid {
   margin-top: 5px;
   border-radius: 5%;
@@ -37,7 +46,7 @@ p {
 .row {
   margin: 1%;
 }
-.col-12 {
+.col-12, .col-6 {
   display: flex;
   flex-direction: column;
   align-items: center;
