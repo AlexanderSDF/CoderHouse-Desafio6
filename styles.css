@@ -45,6 +45,8 @@ p {
 }
 .row {
   margin: 1%;
+  display: flex;
+  justify-content: center;
 }
 .col-12, .col-6 {
   display: flex;
