@@ -16,25 +16,10 @@
   font-weight: 500;
 }
 p {
-  font-size: 130%;
-  font-weight: 650;
-  text-align: justify;
   margin: 5%;
+  text-align: justify;
 }
-.footerText,
-.h1 {
-  text-align: center;
-  font-weight: 650;
-}
-.h2 {
-  text-align: center;
-  font-weight: 650;
-}
-.h3 {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 650;
-}
+
 .img-fluid {
   margin-top: 5px;
   border-radius: 5%;
