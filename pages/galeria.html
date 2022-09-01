@@ -11,6 +11,8 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- ANIMACIONES DE AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS MIO -->
     <link rel="stylesheet" href="../styles.css"/>
     <title>Desafio Bootstrap</title>
@@ -21,6 +23,7 @@
         <div class="container d-flex flex-row justify-content-center">
           <a class="navbar-brand" href="../index.html">
             <img
+              data-aos="fade-down"
               src="../assets/images/iconos/ferrari.png"
               alt=""
               width="100"
@@ -87,7 +90,7 @@
       <!-- seccion de contenido -->
       <div class="row d-flex justify-content-center"><!-- fila para englobar columnas coches, trofeos y victorias -->
         <!-- columna coches -->
-        <div class="col-12 col-lg-6"><!-- fila1 -->
+        <div data-aos="fade-right" class="col-12 col-lg-6"><!-- fila1 -->
           <div class="row d-flex justify-content-center">
             <div class="row"><h2 class="h2 text-center fs-2 fw-bold">Coches Iconicos</h2></div>
             <div class="col-4"><img class="img-fluid" src="../assets/images/galeria/autos/1969-1971-Ferrari312B.jpg" alt=""><h3 class="h3 text-center fs-4 fw-bolder">1969-1971 Ferrari312B</h3></div>
@@ -99,7 +102,7 @@
           </div>
         </div>
         <!-- columna Victorias -->
-        <div class="col-12 col-lg-6">
+        <div data-aos="fade-left"class="col-12 col-lg-6">
           <div class="row d-flex justify-content-center">
             <div class="row"><h2 class="h2 text-center fs-2 fw-bold">Victorias Memorables</h2></div>
             <div class="col-4"><img class="img-fluid" src="../assets/images/galeria/autos/2007-FerrariF2007.jpg" alt=""><h3 class="h3 text-center fs-4 fw-bolder">Text Demo</h3></div>
@@ -111,7 +114,7 @@
           </div>
         </div>
         <!-- columna Trofeos -->
-        <div class="col-12 col-lg-6">
+        <div data-aos="fade-up" class="col-12 col-lg-6">
           <div class="row d-flex justify-content-center">
             <div class="row"><h2 class="h2 text-center fs-2 fw-bold">Sala de Trofeos</h2></div>
             <div class="col-4"><img class="img-fluid" src="../assets/images/galeria/autos/2007-FerrariF2007.jpg" alt=""><h3 class="h3 text-center fs-4 fw-bolder">Text Demo</h3></div>
@@ -137,4 +140,9 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"
   ></script>
+  <!-- SCRIPT DE AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

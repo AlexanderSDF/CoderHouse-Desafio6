@@ -11,6 +11,8 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- ANIMACIONES DE AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS MIO -->
     <link rel="stylesheet" href="../styles.css"/>
     <title>Desafio Bootstrap</title>
@@ -21,6 +23,7 @@
         <div class="container d-flex flex-row justify-content-center">
           <a class="navbar-brand" href="../index.html">
             <img
+              data-aos="fade-down"
               src="../assets/images/iconos/ferrari.png"
               alt=""
               width="100"
@@ -87,10 +90,16 @@
       <div class="row">
         <div class="col-12">
           <div class="col-7">
-            <p class="text text fs-3 fw-bolder lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem provident, temporibus illo consectetur eaque nulla tenetur ipsa, minus ipsam, quidem dolor vel tempore exercitationem dolorum sunt neque eveniet quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda at ut quas harum. Placeat et corporis perspiciatis deleniti debitis neque ut adipisci, molestias, ullam, facere numquam doloremque laboriosam rerum labore.</p>
+            <p class="text text fs-3 fw-bolder lh-sm"> "Essere Ferrari" es algo único. Somos únicos en el mundo, ser Ferrari significa pasión, significa determinación, integridad, coraje, competición, excelencia. Ser Ferrari es algo relacionado a la tradición. Hemos estado aquí durante 90 años y estamos muy orgullosos.<br>
+            </p>
+            <p class="text text fs-3 fw-bolder lh-sm">
+            Ferrari se enorgullece de dia a dia ser la marca más valorada en las todas sus sociales tanto por su aficion como por sus consumidores y representantes en todo el sector del automóvil.
+            </p>
+            <p class="text text fs-3 fw-bolder lh-sm">Millones de seguidores y de visitas todos los meses, así se cuida a los entusiastas, brindandoles la mejor y mas prestigiosas de las comunidades, entretenimiento, expectaculos, obras de arte de la ingenieria mecanica y automotriz entre muchas cosas mas, por esto y por todo lo que falte mencionar, se creo esta comunidad para compartir y no perderse ningun detalle de cada noticia de la Escuderia Ferrari. 
+            </p>
           </div>
           <div class="col-12">
-            <h2 class="h2 fw-bold">Recibi Noticias:</h2>
+            <h2 class="h2 fw-bold">Quiero recibir noticias:</h2>
             <form>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email:</label>
@@ -120,4 +129,9 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"
   ></script>
+  <!-- SCRIPT DE AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
