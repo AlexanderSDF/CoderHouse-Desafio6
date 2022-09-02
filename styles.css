@@ -1,11 +1,24 @@
+/* margin derecho del nav para ceparar los link
+y pading para resetear lo establecido por Bootstrap */
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
+  margin-right: 10%;
 }
+/* margin del boton hamburguesa */
+.navbar-toggler {
+  margin-right: 5%;
+}
+/* ceparacion entre los nav links */
+.nav-item{
+  margin-left: 2%;
+}
+/* margen a los textos y justificado que no hay en la libreria de BS */
 p {
   margin: 5%;
   text-align: justify;
 }
+/* un margen superior a las img y un borde redondeado */
 .img-fluid {
   margin-top: 5px;
   border-radius: 5%;
@@ -14,14 +27,33 @@ p {
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
+/* margen a las filas y justificado centro para no repetir
+escritura de clases en html */
 .row {
   margin: 1%;
   display: flex;
   justify-content: center;
 }
+/* margen a las columnas con justificado y alineacion  */
 .col-12, .col-6 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-} 
+}
+/* MQ para tratar las dimesiones de las img en casos especificos */
+@media screen and (max-width: 1440px) {
+  .img-fluid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .img-fluid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .img-fluid {
+    width: 90%;
+  }
+}
